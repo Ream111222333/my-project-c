@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+    <title>Home page</title>
     <style>
         body{
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -14,7 +14,7 @@
             text-transform: uppercase;
         }
         span{
-            color: rgb(182, 200, 21);
+            color: teal;
         }
         ul{
             margin-left: 25%;
@@ -29,23 +29,31 @@
         ul li a{
             text-transform: uppercase;
             text-decoration: none;
-            color: rgb(229, 229, 24);
+            color: black;
         }
         #active{
             font-weight: bold;
             color: orange;
             text-decoration: underline;
         }
-       
-    
-        </style>
+    </style>
 </head>
 <body>
-    <span><u><a href="https://www.google.com/">Google</a></u></span>
-    /<span><u><a href="https://stackoverflow.com/">OverFlow</a> </u></span>
-    /<span><u><a href="https://www.w3schools.com/">W3school</a></u></span>
-    /<span><u><a href="https://codepen.io/">Code penh</a></u></span>
-    /<span><u><a href="https://github.com/">Github</a></u></span>
-
+    <h1>This is our <span>Home page</span></h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod tenetur molestiae a cum labore alias cumque magni, nobis laudantium amet.</p>
+    <hr>
+    <ul type="square">
+        <li><a id="active" href="#">Home</a></li>
+        <li><a href="./pages/about.html">About</a></li>
+        <li><a href="./pages/product.html">Product</a></li>
+        <li><a href="./pages/services/service.html">Service</a></li>
+        <li><a href="./pages/services/help.html">Help</a></li>
+        <li><a href="./pages/services/contact.html">Contact</a></li>
+    </ul>
+    <fieldset>
+        <legend>History 2021</legend>
+        <br>
+        <button>Google</button>
+    </fieldset>
 </body>
 </html>
